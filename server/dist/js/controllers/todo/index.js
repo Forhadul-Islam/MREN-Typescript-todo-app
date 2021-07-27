@@ -17,7 +17,7 @@ const todo_1 = __importDefault(require("../../models/todo"));
 // get all todos controller
 const getTodos = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        const todos = yield todo_1.default.find();
+        const todos = yield todo_1.default.find().sort("createdAt");
         res.status(200).json({ todos });
     }
     catch (err) {

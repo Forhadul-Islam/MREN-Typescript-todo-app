@@ -29,7 +29,7 @@ const TodoItem: React.FC<IProps> = ({
           }
           style={{ lineBreak: "anywhere" }}
         >
-          {todo.description}
+          👉 {todo.description}
         </div>
       </div>
       <div className="col-span-2 justify-center self-center">

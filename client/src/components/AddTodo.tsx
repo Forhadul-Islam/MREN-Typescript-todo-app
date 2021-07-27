@@ -35,7 +35,7 @@ const AddTodo = ({ handleAddTodo }: IProps): JSX.Element => {
       <br />
       <button
         onClick={() => addTodo(task, name)}
-        className="w-24 bg-purple-800 text-white text-xl font-semibold"
+        className="w-32 bg-purple-800 text-white text-xl font-semibold"
       >
         Add
       </button>

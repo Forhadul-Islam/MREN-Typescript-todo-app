@@ -6,7 +6,7 @@ import { ITodo } from "../../types/todo";
 
 const getTodos = async (req: Request, res: Response): Promise<void> => {
   try {
-    const todos: ITodo[] = await Todo.find();
+    const todos: ITodo[] = await Todo.find().sort("createdAt");
     res.status(200).json({ todos });
   } catch (err) {
     throw err;
