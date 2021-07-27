@@ -16,7 +16,7 @@ const AddTodo = ({ handleAddTodo }: IProps): JSX.Element => {
   }
 
   return (
-    <div className=" mx-auto bg-pink-100 flex justify-center h-12">
+    <div className=" w-3/5 mx-auto bg-pink-100 flex justify-center h-12">
       <input
         className="  border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent pl-2 border-4 border-indigo-600 focus:border-purple-500"
         type="text"
@@ -34,8 +34,9 @@ const AddTodo = ({ handleAddTodo }: IProps): JSX.Element => {
       />
       <br />
       <button
+        disabled={!name && !task}
         onClick={() => addTodo(task, name)}
-        className="w-32 bg-purple-800 text-white text-xl font-semibold"
+        className="w-32 bg-purple-800 text-white text-xl font-semibold hover:animate-pulse"
       >
         Add
       </button>
