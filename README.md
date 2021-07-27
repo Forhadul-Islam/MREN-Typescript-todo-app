@@ -17,4 +17,4 @@
 `I Enjoyed doing this project a lot.... and fallen in love with typescript again! 💌 `
 
 Images
-![MERN STACK TODO APP](./mern-todo)
+![MERN STACK TODO APP](./mern-todo-app.png)
