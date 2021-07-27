@@ -1,4 +1,4 @@
-# Todo Application usiong typescript 🚀
+# Todo Application using typescript 🚀
 
 ## Frontend 🍿
 
@@ -17,4 +17,4 @@
 `I Enjoyed doing this project a lot.... and fallen in love with typescript again! 💌 `
 
 Images
-![MERN STACK TODO APP](./mern-todo-app.png)
+![MERN STACK TODO APP](./mern-todo)
